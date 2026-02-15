@@ -1,0 +1,24 @@
+{
+  "name": "fhgr-master-thesis-presentation",
+  "version": "1.0.0",
+  "description": "Presentation for my Master Thesis",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yhutter-dv/fhgr-master-thesis-presentation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yhutter-dv/fhgr-master-thesis-presentation/issues"
+  },
+  "homepage": "https://github.com/yhutter-dv/fhgr-master-thesis-presentation#readme",
+  "dependencies": {
+    "reveal.js": "^5.2.1",
+    "vite": "^7.3.1"
+  }
+}
