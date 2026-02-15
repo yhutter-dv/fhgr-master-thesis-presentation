@@ -8,9 +8,9 @@
         <link rel="stylesheet" href="node_modules/reveal.js/dist/reset.css">
 		<link rel="stylesheet" href="node_modules/reveal.js/dist/reveal.css">
 
-        <link rel="stylesheet" href="node_modules/reveal.js/plugin/highlight/monokai.css">
 
         <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./code-highlight.css">
     </head>
     <body>
         <div class="reveal">
@@ -20,7 +20,17 @@
                     <p>Some Text with <span class="primary">important</span> keywords</p>
                 </section>
 				<section data-visibility="hidden">Slide X</section>
-				<section>Slide 2</section>
+				<section>
+                    <pre>
+                        <code data-line-numbers data-trim data-noescape class="language-javascript">
+                            function helloWorld() {
+                                console.log('Hello World!');
+                            }
+                            helloWorld();
+                        </code>
+                    </pre>
+
+                </section>
 			</div>
 		</div>
 
